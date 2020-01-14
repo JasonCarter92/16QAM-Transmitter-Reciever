@@ -1,0 +1,1932 @@
+always @ *
+	case(xDelay[0])
+	   2'd1: 
+	      hOut[0] = 18'sd9;
+	   2'd2: 
+	      hOut[0] = 18'sd3;
+	   2'd3: 
+	      hOut[0] = -18'sd3;
+	   2'd4: 
+	      hOut[0] = -18'sd9;
+	endcase
+
+always @ *
+	case(xDelay[1])
+	   2'd1: 
+	      hOut[1] = 18'sd1;
+	   2'd2: 
+	      hOut[1] = 18'sd0;
+	   2'd3: 
+	      hOut[1] = 18'sd0;
+	   2'd4: 
+	      hOut[1] = -18'sd1;
+	endcase
+
+always @ *
+	case(xDelay[2])
+	   2'd1: 
+	      hOut[2] = -18'sd9;
+	   2'd2: 
+	      hOut[2] = -18'sd3;
+	   2'd3: 
+	      hOut[2] = 18'sd3;
+	   2'd4: 
+	      hOut[2] = 18'sd9;
+	endcase
+
+always @ *
+	case(xDelay[3])
+	   2'd1: 
+	      hOut[3] = -18'sd14;
+	   2'd2: 
+	      hOut[3] = -18'sd5;
+	   2'd3: 
+	      hOut[3] = 18'sd5;
+	   2'd4: 
+	      hOut[3] = 18'sd14;
+	endcase
+
+always @ *
+	case(xDelay[4])
+	   2'd1: 
+	      hOut[4] = -18'sd9;
+	   2'd2: 
+	      hOut[4] = -18'sd3;
+	   2'd3: 
+	      hOut[4] = 18'sd3;
+	   2'd4: 
+	      hOut[4] = 18'sd9;
+	endcase
+
+always @ *
+	case(xDelay[5])
+	   2'd1: 
+	      hOut[5] = 18'sd2;
+	   2'd2: 
+	      hOut[5] = 18'sd1;
+	   2'd3: 
+	      hOut[5] = -18'sd1;
+	   2'd4: 
+	      hOut[5] = -18'sd2;
+	endcase
+
+always @ *
+	case(xDelay[6])
+	   2'd1: 
+	      hOut[6] = 18'sd13;
+	   2'd2: 
+	      hOut[6] = 18'sd4;
+	   2'd3: 
+	      hOut[6] = -18'sd4;
+	   2'd4: 
+	      hOut[6] = -18'sd13;
+	endcase
+
+always @ *
+	case(xDelay[7])
+	   2'd1: 
+	      hOut[7] = 18'sd16;
+	   2'd2: 
+	      hOut[7] = 18'sd5;
+	   2'd3: 
+	      hOut[7] = -18'sd5;
+	   2'd4: 
+	      hOut[7] = -18'sd16;
+	endcase
+
+always @ *
+	case(xDelay[8])
+	   2'd1: 
+	      hOut[8] = 18'sd8;
+	   2'd2: 
+	      hOut[8] = 18'sd3;
+	   2'd3: 
+	      hOut[8] = -18'sd3;
+	   2'd4: 
+	      hOut[8] = -18'sd8;
+	endcase
+
+always @ *
+	case(xDelay[9])
+	   2'd1: 
+	      hOut[9] = -18'sd6;
+	   2'd2: 
+	      hOut[9] = -18'sd2;
+	   2'd3: 
+	      hOut[9] = 18'sd2;
+	   2'd4: 
+	      hOut[9] = 18'sd6;
+	endcase
+
+always @ *
+	case(xDelay[10])
+	   2'd1: 
+	      hOut[10] = -18'sd18;
+	   2'd2: 
+	      hOut[10] = -18'sd6;
+	   2'd3: 
+	      hOut[10] = 18'sd6;
+	   2'd4: 
+	      hOut[10] = 18'sd18;
+	endcase
+
+always @ *
+	case(xDelay[11])
+	   2'd1: 
+	      hOut[11] = -18'sd17;
+	   2'd2: 
+	      hOut[11] = -18'sd6;
+	   2'd3: 
+	      hOut[11] = 18'sd6;
+	   2'd4: 
+	      hOut[11] = 18'sd17;
+	endcase
+
+always @ *
+	case(xDelay[12])
+	   2'd1: 
+	      hOut[12] = -18'sd5;
+	   2'd2: 
+	      hOut[12] = -18'sd2;
+	   2'd3: 
+	      hOut[12] = 18'sd2;
+	   2'd4: 
+	      hOut[12] = 18'sd5;
+	endcase
+
+always @ *
+	case(xDelay[13])
+	   2'd1: 
+	      hOut[13] = 18'sd12;
+	   2'd2: 
+	      hOut[13] = 18'sd4;
+	   2'd3: 
+	      hOut[13] = -18'sd4;
+	   2'd4: 
+	      hOut[13] = -18'sd12;
+	endcase
+
+always @ *
+	case(xDelay[14])
+	   2'd1: 
+	      hOut[14] = 18'sd22;
+	   2'd2: 
+	      hOut[14] = 18'sd7;
+	   2'd3: 
+	      hOut[14] = -18'sd7;
+	   2'd4: 
+	      hOut[14] = -18'sd22;
+	endcase
+
+always @ *
+	case(xDelay[15])
+	   2'd1: 
+	      hOut[15] = 18'sd17;
+	   2'd2: 
+	      hOut[15] = 18'sd6;
+	   2'd3: 
+	      hOut[15] = -18'sd6;
+	   2'd4: 
+	      hOut[15] = -18'sd17;
+	endcase
+
+always @ *
+	case(xDelay[16])
+	   2'd1: 
+	      hOut[16] = 18'sd0;
+	   2'd2: 
+	      hOut[16] = 18'sd0;
+	   2'd3: 
+	      hOut[16] = 18'sd0;
+	   2'd4: 
+	      hOut[16] = 18'sd0;
+	endcase
+
+always @ *
+	case(xDelay[17])
+	   2'd1: 
+	      hOut[17] = -18'sd18;
+	   2'd2: 
+	      hOut[17] = -18'sd6;
+	   2'd3: 
+	      hOut[17] = 18'sd6;
+	   2'd4: 
+	      hOut[17] = 18'sd18;
+	endcase
+
+always @ *
+	case(xDelay[18])
+	   2'd1: 
+	      hOut[18] = -18'sd24;
+	   2'd2: 
+	      hOut[18] = -18'sd8;
+	   2'd3: 
+	      hOut[18] = 18'sd8;
+	   2'd4: 
+	      hOut[18] = 18'sd24;
+	endcase
+
+always @ *
+	case(xDelay[19])
+	   2'd1: 
+	      hOut[19] = -18'sd13;
+	   2'd2: 
+	      hOut[19] = -18'sd4;
+	   2'd3: 
+	      hOut[19] = 18'sd4;
+	   2'd4: 
+	      hOut[19] = 18'sd13;
+	endcase
+
+always @ *
+	case(xDelay[20])
+	   2'd1: 
+	      hOut[20] = 18'sd9;
+	   2'd2: 
+	      hOut[20] = 18'sd3;
+	   2'd3: 
+	      hOut[20] = -18'sd3;
+	   2'd4: 
+	      hOut[20] = -18'sd9;
+	endcase
+
+always @ *
+	case(xDelay[21])
+	   2'd1: 
+	      hOut[21] = 18'sd25;
+	   2'd2: 
+	      hOut[21] = 18'sd8;
+	   2'd3: 
+	      hOut[21] = -18'sd8;
+	   2'd4: 
+	      hOut[21] = -18'sd25;
+	endcase
+
+always @ *
+	case(xDelay[22])
+	   2'd1: 
+	      hOut[22] = 18'sd24;
+	   2'd2: 
+	      hOut[22] = 18'sd8;
+	   2'd3: 
+	      hOut[22] = -18'sd8;
+	   2'd4: 
+	      hOut[22] = -18'sd24;
+	endcase
+
+always @ *
+	case(xDelay[23])
+	   2'd1: 
+	      hOut[23] = 18'sd4;
+	   2'd2: 
+	      hOut[23] = 18'sd1;
+	   2'd3: 
+	      hOut[23] = -18'sd1;
+	   2'd4: 
+	      hOut[23] = -18'sd4;
+	endcase
+
+always @ *
+	case(xDelay[24])
+	   2'd1: 
+	      hOut[24] = -18'sd20;
+	   2'd2: 
+	      hOut[24] = -18'sd7;
+	   2'd3: 
+	      hOut[24] = 18'sd7;
+	   2'd4: 
+	      hOut[24] = 18'sd20;
+	endcase
+
+always @ *
+	case(xDelay[25])
+	   2'd1: 
+	      hOut[25] = -18'sd31;
+	   2'd2: 
+	      hOut[25] = -18'sd10;
+	   2'd3: 
+	      hOut[25] = 18'sd10;
+	   2'd4: 
+	      hOut[25] = 18'sd31;
+	endcase
+
+always @ *
+	case(xDelay[26])
+	   2'd1: 
+	      hOut[26] = -18'sd19;
+	   2'd2: 
+	      hOut[26] = -18'sd6;
+	   2'd3: 
+	      hOut[26] = 18'sd6;
+	   2'd4: 
+	      hOut[26] = 18'sd19;
+	endcase
+
+always @ *
+	case(xDelay[27])
+	   2'd1: 
+	      hOut[27] = 18'sd10;
+	   2'd2: 
+	      hOut[27] = 18'sd3;
+	   2'd3: 
+	      hOut[27] = -18'sd3;
+	   2'd4: 
+	      hOut[27] = -18'sd10;
+	endcase
+
+always @ *
+	case(xDelay[28])
+	   2'd1: 
+	      hOut[28] = 18'sd35;
+	   2'd2: 
+	      hOut[28] = 18'sd12;
+	   2'd3: 
+	      hOut[28] = -18'sd12;
+	   2'd4: 
+	      hOut[28] = -18'sd35;
+	endcase
+
+always @ *
+	case(xDelay[29])
+	   2'd1: 
+	      hOut[29] = 18'sd37;
+	   2'd2: 
+	      hOut[29] = 18'sd12;
+	   2'd3: 
+	      hOut[29] = -18'sd12;
+	   2'd4: 
+	      hOut[29] = -18'sd37;
+	endcase
+
+always @ *
+	case(xDelay[30])
+	   2'd1: 
+	      hOut[30] = 18'sd9;
+	   2'd2: 
+	      hOut[30] = 18'sd3;
+	   2'd3: 
+	      hOut[30] = -18'sd3;
+	   2'd4: 
+	      hOut[30] = -18'sd9;
+	endcase
+
+always @ *
+	case(xDelay[31])
+	   2'd1: 
+	      hOut[31] = -18'sd30;
+	   2'd2: 
+	      hOut[31] = -18'sd10;
+	   2'd3: 
+	      hOut[31] = 18'sd10;
+	   2'd4: 
+	      hOut[31] = 18'sd30;
+	endcase
+
+always @ *
+	case(xDelay[32])
+	   2'd1: 
+	      hOut[32] = -18'sd53;
+	   2'd2: 
+	      hOut[32] = -18'sd18;
+	   2'd3: 
+	      hOut[32] = 18'sd18;
+	   2'd4: 
+	      hOut[32] = 18'sd53;
+	endcase
+
+always @ *
+	case(xDelay[33])
+	   2'd1: 
+	      hOut[33] = -18'sd39;
+	   2'd2: 
+	      hOut[33] = -18'sd13;
+	   2'd3: 
+	      hOut[33] = 18'sd13;
+	   2'd4: 
+	      hOut[33] = 18'sd39;
+	endcase
+
+always @ *
+	case(xDelay[34])
+	   2'd1: 
+	      hOut[34] = 18'sd9;
+	   2'd2: 
+	      hOut[34] = 18'sd3;
+	   2'd3: 
+	      hOut[34] = -18'sd3;
+	   2'd4: 
+	      hOut[34] = -18'sd9;
+	endcase
+
+always @ *
+	case(xDelay[35])
+	   2'd1: 
+	      hOut[35] = 18'sd59;
+	   2'd2: 
+	      hOut[35] = 18'sd20;
+	   2'd3: 
+	      hOut[35] = -18'sd20;
+	   2'd4: 
+	      hOut[35] = -18'sd59;
+	endcase
+
+always @ *
+	case(xDelay[36])
+	   2'd1: 
+	      hOut[36] = 18'sd75;
+	   2'd2: 
+	      hOut[36] = 18'sd25;
+	   2'd3: 
+	      hOut[36] = -18'sd25;
+	   2'd4: 
+	      hOut[36] = -18'sd75;
+	endcase
+
+always @ *
+	case(xDelay[37])
+	   2'd1: 
+	      hOut[37] = 18'sd37;
+	   2'd2: 
+	      hOut[37] = 18'sd12;
+	   2'd3: 
+	      hOut[37] = -18'sd12;
+	   2'd4: 
+	      hOut[37] = -18'sd37;
+	endcase
+
+always @ *
+	case(xDelay[38])
+	   2'd1: 
+	      hOut[38] = -18'sd37;
+	   2'd2: 
+	      hOut[38] = -18'sd12;
+	   2'd3: 
+	      hOut[38] = 18'sd12;
+	   2'd4: 
+	      hOut[38] = 18'sd37;
+	endcase
+
+always @ *
+	case(xDelay[39])
+	   2'd1: 
+	      hOut[39] = -18'sd98;
+	   2'd2: 
+	      hOut[39] = -18'sd33;
+	   2'd3: 
+	      hOut[39] = 18'sd33;
+	   2'd4: 
+	      hOut[39] = 18'sd98;
+	endcase
+
+always @ *
+	case(xDelay[40])
+	   2'd1: 
+	      hOut[40] = -18'sd100;
+	   2'd2: 
+	      hOut[40] = -18'sd33;
+	   2'd3: 
+	      hOut[40] = 18'sd33;
+	   2'd4: 
+	      hOut[40] = 18'sd100;
+	endcase
+
+always @ *
+	case(xDelay[41])
+	   2'd1: 
+	      hOut[41] = -18'sd29;
+	   2'd2: 
+	      hOut[41] = -18'sd10;
+	   2'd3: 
+	      hOut[41] = 18'sd10;
+	   2'd4: 
+	      hOut[41] = 18'sd29;
+	endcase
+
+always @ *
+	case(xDelay[42])
+	   2'd1: 
+	      hOut[42] = 18'sd77;
+	   2'd2: 
+	      hOut[42] = 18'sd26;
+	   2'd3: 
+	      hOut[42] = -18'sd26;
+	   2'd4: 
+	      hOut[42] = -18'sd77;
+	endcase
+
+always @ *
+	case(xDelay[43])
+	   2'd1: 
+	      hOut[43] = 18'sd148;
+	   2'd2: 
+	      hOut[43] = 18'sd49;
+	   2'd3: 
+	      hOut[43] = -18'sd49;
+	   2'd4: 
+	      hOut[43] = -18'sd148;
+	endcase
+
+always @ *
+	case(xDelay[44])
+	   2'd1: 
+	      hOut[44] = 18'sd126;
+	   2'd2: 
+	      hOut[44] = 18'sd42;
+	   2'd3: 
+	      hOut[44] = -18'sd42;
+	   2'd4: 
+	      hOut[44] = -18'sd126;
+	endcase
+
+always @ *
+	case(xDelay[45])
+	   2'd1: 
+	      hOut[45] = 18'sd11;
+	   2'd2: 
+	      hOut[45] = 18'sd4;
+	   2'd3: 
+	      hOut[45] = -18'sd4;
+	   2'd4: 
+	      hOut[45] = -18'sd11;
+	endcase
+
+always @ *
+	case(xDelay[46])
+	   2'd1: 
+	      hOut[46] = -18'sd134;
+	   2'd2: 
+	      hOut[46] = -18'sd45;
+	   2'd3: 
+	      hOut[46] = 18'sd45;
+	   2'd4: 
+	      hOut[46] = 18'sd134;
+	endcase
+
+always @ *
+	case(xDelay[47])
+	   2'd1: 
+	      hOut[47] = -18'sd211;
+	   2'd2: 
+	      hOut[47] = -18'sd70;
+	   2'd3: 
+	      hOut[47] = 18'sd70;
+	   2'd4: 
+	      hOut[47] = 18'sd211;
+	endcase
+
+always @ *
+	case(xDelay[48])
+	   2'd1: 
+	      hOut[48] = -18'sd155;
+	   2'd2: 
+	      hOut[48] = -18'sd52;
+	   2'd3: 
+	      hOut[48] = 18'sd52;
+	   2'd4: 
+	      hOut[48] = 18'sd155;
+	endcase
+
+always @ *
+	case(xDelay[49])
+	   2'd1: 
+	      hOut[49] = 18'sd20;
+	   2'd2: 
+	      hOut[49] = 18'sd7;
+	   2'd3: 
+	      hOut[49] = -18'sd7;
+	   2'd4: 
+	      hOut[49] = -18'sd20;
+	endcase
+
+always @ *
+	case(xDelay[50])
+	   2'd1: 
+	      hOut[50] = 18'sd211;
+	   2'd2: 
+	      hOut[50] = 18'sd70;
+	   2'd3: 
+	      hOut[50] = -18'sd70;
+	   2'd4: 
+	      hOut[50] = -18'sd211;
+	endcase
+
+always @ *
+	case(xDelay[51])
+	   2'd1: 
+	      hOut[51] = 18'sd290;
+	   2'd2: 
+	      hOut[51] = 18'sd97;
+	   2'd3: 
+	      hOut[51] = -18'sd97;
+	   2'd4: 
+	      hOut[51] = -18'sd290;
+	endcase
+
+always @ *
+	case(xDelay[52])
+	   2'd1: 
+	      hOut[52] = 18'sd183;
+	   2'd2: 
+	      hOut[52] = 18'sd61;
+	   2'd3: 
+	      hOut[52] = -18'sd61;
+	   2'd4: 
+	      hOut[52] = -18'sd183;
+	endcase
+
+always @ *
+	case(xDelay[53])
+	   2'd1: 
+	      hOut[53] = -18'sd67;
+	   2'd2: 
+	      hOut[53] = -18'sd22;
+	   2'd3: 
+	      hOut[53] = 18'sd22;
+	   2'd4: 
+	      hOut[53] = 18'sd67;
+	endcase
+
+always @ *
+	case(xDelay[54])
+	   2'd1: 
+	      hOut[54] = -18'sd315;
+	   2'd2: 
+	      hOut[54] = -18'sd105;
+	   2'd3: 
+	      hOut[54] = 18'sd105;
+	   2'd4: 
+	      hOut[54] = 18'sd315;
+	endcase
+
+always @ *
+	case(xDelay[55])
+	   2'd1: 
+	      hOut[55] = -18'sd390;
+	   2'd2: 
+	      hOut[55] = -18'sd130;
+	   2'd3: 
+	      hOut[55] = 18'sd130;
+	   2'd4: 
+	      hOut[55] = 18'sd390;
+	endcase
+
+always @ *
+	case(xDelay[56])
+	   2'd1: 
+	      hOut[56] = -18'sd212;
+	   2'd2: 
+	      hOut[56] = -18'sd71;
+	   2'd3: 
+	      hOut[56] = 18'sd71;
+	   2'd4: 
+	      hOut[56] = 18'sd212;
+	endcase
+
+always @ *
+	case(xDelay[57])
+	   2'd1: 
+	      hOut[57] = 18'sd140;
+	   2'd2: 
+	      hOut[57] = 18'sd47;
+	   2'd3: 
+	      hOut[57] = -18'sd47;
+	   2'd4: 
+	      hOut[57] = -18'sd140;
+	endcase
+
+always @ *
+	case(xDelay[58])
+	   2'd1: 
+	      hOut[58] = 18'sd456;
+	   2'd2: 
+	      hOut[58] = 18'sd152;
+	   2'd3: 
+	      hOut[58] = -18'sd152;
+	   2'd4: 
+	      hOut[58] = -18'sd456;
+	endcase
+
+always @ *
+	case(xDelay[59])
+	   2'd1: 
+	      hOut[59] = 18'sd517;
+	   2'd2: 
+	      hOut[59] = 18'sd172;
+	   2'd3: 
+	      hOut[59] = -18'sd172;
+	   2'd4: 
+	      hOut[59] = -18'sd517;
+	endcase
+
+always @ *
+	case(xDelay[60])
+	   2'd1: 
+	      hOut[60] = 18'sd238;
+	   2'd2: 
+	      hOut[60] = 18'sd79;
+	   2'd3: 
+	      hOut[60] = -18'sd79;
+	   2'd4: 
+	      hOut[60] = -18'sd238;
+	endcase
+
+always @ *
+	case(xDelay[61])
+	   2'd1: 
+	      hOut[61] = -18'sd250;
+	   2'd2: 
+	      hOut[61] = -18'sd83;
+	   2'd3: 
+	      hOut[61] = 18'sd83;
+	   2'd4: 
+	      hOut[61] = 18'sd250;
+	endcase
+
+always @ *
+	case(xDelay[62])
+	   2'd1: 
+	      hOut[62] = -18'sd654;
+	   2'd2: 
+	      hOut[62] = -18'sd218;
+	   2'd3: 
+	      hOut[62] = 18'sd218;
+	   2'd4: 
+	      hOut[62] = 18'sd654;
+	endcase
+
+always @ *
+	case(xDelay[63])
+	   2'd1: 
+	      hOut[63] = -18'sd688;
+	   2'd2: 
+	      hOut[63] = -18'sd229;
+	   2'd3: 
+	      hOut[63] = 18'sd229;
+	   2'd4: 
+	      hOut[63] = 18'sd688;
+	endcase
+
+always @ *
+	case(xDelay[64])
+	   2'd1: 
+	      hOut[64] = -18'sd261;
+	   2'd2: 
+	      hOut[64] = -18'sd87;
+	   2'd3: 
+	      hOut[64] = 18'sd87;
+	   2'd4: 
+	      hOut[64] = 18'sd261;
+	endcase
+
+always @ *
+	case(xDelay[65])
+	   2'd1: 
+	      hOut[65] = 18'sd422;
+	   2'd2: 
+	      hOut[65] = 18'sd141;
+	   2'd3: 
+	      hOut[65] = -18'sd141;
+	   2'd4: 
+	      hOut[65] = -18'sd422;
+	endcase
+
+always @ *
+	case(xDelay[66])
+	   2'd1: 
+	      hOut[66] = 18'sd951;
+	   2'd2: 
+	      hOut[66] = 18'sd317;
+	   2'd3: 
+	      hOut[66] = -18'sd317;
+	   2'd4: 
+	      hOut[66] = -18'sd951;
+	endcase
+
+always @ *
+	case(xDelay[67])
+	   2'd1: 
+	      hOut[67] = 18'sd938;
+	   2'd2: 
+	      hOut[67] = 18'sd313;
+	   2'd3: 
+	      hOut[67] = -18'sd313;
+	   2'd4: 
+	      hOut[67] = -18'sd938;
+	endcase
+
+always @ *
+	case(xDelay[68])
+	   2'd1: 
+	      hOut[68] = 18'sd281;
+	   2'd2: 
+	      hOut[68] = 18'sd94;
+	   2'd3: 
+	      hOut[68] = -18'sd94;
+	   2'd4: 
+	      hOut[68] = -18'sd281;
+	endcase
+
+always @ *
+	case(xDelay[69])
+	   2'd1: 
+	      hOut[69] = -18'sd716;
+	   2'd2: 
+	      hOut[69] = -18'sd239;
+	   2'd3: 
+	      hOut[69] = 18'sd239;
+	   2'd4: 
+	      hOut[69] = 18'sd716;
+	endcase
+
+always @ *
+	case(xDelay[70])
+	   2'd1: 
+	      hOut[70] = -18'sd1455;
+	   2'd2: 
+	      hOut[70] = -18'sd485;
+	   2'd3: 
+	      hOut[70] = 18'sd485;
+	   2'd4: 
+	      hOut[70] = 18'sd1455;
+	endcase
+
+always @ *
+	case(xDelay[71])
+	   2'd1: 
+	      hOut[71] = -18'sd1370;
+	   2'd2: 
+	      hOut[71] = -18'sd457;
+	   2'd3: 
+	      hOut[71] = 18'sd457;
+	   2'd4: 
+	      hOut[71] = 18'sd1370;
+	endcase
+
+always @ *
+	case(xDelay[72])
+	   2'd1: 
+	      hOut[72] = -18'sd296;
+	   2'd2: 
+	      hOut[72] = -18'sd99;
+	   2'd3: 
+	      hOut[72] = 18'sd99;
+	   2'd4: 
+	      hOut[72] = 18'sd296;
+	endcase
+
+always @ *
+	case(xDelay[73])
+	   2'd1: 
+	      hOut[73] = 18'sd1329;
+	   2'd2: 
+	      hOut[73] = 18'sd443;
+	   2'd3: 
+	      hOut[73] = -18'sd443;
+	   2'd4: 
+	      hOut[73] = -18'sd1329;
+	endcase
+
+always @ *
+	case(xDelay[74])
+	   2'd1: 
+	      hOut[74] = 18'sd2571;
+	   2'd2: 
+	      hOut[74] = 18'sd857;
+	   2'd3: 
+	      hOut[74] = -18'sd857;
+	   2'd4: 
+	      hOut[74] = -18'sd2571;
+	endcase
+
+always @ *
+	case(xDelay[75])
+	   2'd1: 
+	      hOut[75] = 18'sd2417;
+	   2'd2: 
+	      hOut[75] = 18'sd806;
+	   2'd3: 
+	      hOut[75] = -18'sd806;
+	   2'd4: 
+	      hOut[75] = -18'sd2417;
+	endcase
+
+always @ *
+	case(xDelay[76])
+	   2'd1: 
+	      hOut[76] = 18'sd305;
+	   2'd2: 
+	      hOut[76] = 18'sd102;
+	   2'd3: 
+	      hOut[76] = -18'sd102;
+	   2'd4: 
+	      hOut[76] = -18'sd305;
+	endcase
+
+always @ *
+	case(xDelay[77])
+	   2'd1: 
+	      hOut[77] = -18'sd3508;
+	   2'd2: 
+	      hOut[77] = -18'sd1169;
+	   2'd3: 
+	      hOut[77] = 18'sd1169;
+	   2'd4: 
+	      hOut[77] = 18'sd3508;
+	endcase
+
+always @ *
+	case(xDelay[78])
+	   2'd1: 
+	      hOut[78] = -18'sd7937;
+	   2'd2: 
+	      hOut[78] = -18'sd2646;
+	   2'd3: 
+	      hOut[78] = 18'sd2646;
+	   2'd4: 
+	      hOut[78] = 18'sd7937;
+	endcase
+
+always @ *
+	case(xDelay[79])
+	   2'd1: 
+	      hOut[79] = -18'sd11472;
+	   2'd2: 
+	      hOut[79] = -18'sd3824;
+	   2'd3: 
+	      hOut[79] = 18'sd3824;
+	   2'd4: 
+	      hOut[79] = 18'sd11472;
+	endcase
+
+always @ *
+	case(xDelay[80])
+	   2'd1: 
+	      hOut[80] = -18'sd12819;
+	   2'd2: 
+	      hOut[80] = -18'sd4273;
+	   2'd3: 
+	      hOut[80] = 18'sd4273;
+	   2'd4: 
+	      hOut[80] = 18'sd12819;
+	endcase
+
+always @ *
+	case(xDelay[81])
+	   2'd1: 
+	      hOut[81] = -18'sd11472;
+	   2'd2: 
+	      hOut[81] = -18'sd3824;
+	   2'd3: 
+	      hOut[81] = 18'sd3824;
+	   2'd4: 
+	      hOut[81] = 18'sd11472;
+	endcase
+
+always @ *
+	case(xDelay[82])
+	   2'd1: 
+	      hOut[82] = -18'sd7937;
+	   2'd2: 
+	      hOut[82] = -18'sd2646;
+	   2'd3: 
+	      hOut[82] = 18'sd2646;
+	   2'd4: 
+	      hOut[82] = 18'sd7937;
+	endcase
+
+always @ *
+	case(xDelay[83])
+	   2'd1: 
+	      hOut[83] = -18'sd3508;
+	   2'd2: 
+	      hOut[83] = -18'sd1169;
+	   2'd3: 
+	      hOut[83] = 18'sd1169;
+	   2'd4: 
+	      hOut[83] = 18'sd3508;
+	endcase
+
+always @ *
+	case(xDelay[84])
+	   2'd1: 
+	      hOut[84] = 18'sd305;
+	   2'd2: 
+	      hOut[84] = 18'sd102;
+	   2'd3: 
+	      hOut[84] = -18'sd102;
+	   2'd4: 
+	      hOut[84] = -18'sd305;
+	endcase
+
+always @ *
+	case(xDelay[85])
+	   2'd1: 
+	      hOut[85] = 18'sd2417;
+	   2'd2: 
+	      hOut[85] = 18'sd806;
+	   2'd3: 
+	      hOut[85] = -18'sd806;
+	   2'd4: 
+	      hOut[85] = -18'sd2417;
+	endcase
+
+always @ *
+	case(xDelay[86])
+	   2'd1: 
+	      hOut[86] = 18'sd2571;
+	   2'd2: 
+	      hOut[86] = 18'sd857;
+	   2'd3: 
+	      hOut[86] = -18'sd857;
+	   2'd4: 
+	      hOut[86] = -18'sd2571;
+	endcase
+
+always @ *
+	case(xDelay[87])
+	   2'd1: 
+	      hOut[87] = 18'sd1329;
+	   2'd2: 
+	      hOut[87] = 18'sd443;
+	   2'd3: 
+	      hOut[87] = -18'sd443;
+	   2'd4: 
+	      hOut[87] = -18'sd1329;
+	endcase
+
+always @ *
+	case(xDelay[88])
+	   2'd1: 
+	      hOut[88] = -18'sd296;
+	   2'd2: 
+	      hOut[88] = -18'sd99;
+	   2'd3: 
+	      hOut[88] = 18'sd99;
+	   2'd4: 
+	      hOut[88] = 18'sd296;
+	endcase
+
+always @ *
+	case(xDelay[89])
+	   2'd1: 
+	      hOut[89] = -18'sd1370;
+	   2'd2: 
+	      hOut[89] = -18'sd457;
+	   2'd3: 
+	      hOut[89] = 18'sd457;
+	   2'd4: 
+	      hOut[89] = 18'sd1370;
+	endcase
+
+always @ *
+	case(xDelay[90])
+	   2'd1: 
+	      hOut[90] = -18'sd1455;
+	   2'd2: 
+	      hOut[90] = -18'sd485;
+	   2'd3: 
+	      hOut[90] = 18'sd485;
+	   2'd4: 
+	      hOut[90] = 18'sd1455;
+	endcase
+
+always @ *
+	case(xDelay[91])
+	   2'd1: 
+	      hOut[91] = -18'sd716;
+	   2'd2: 
+	      hOut[91] = -18'sd239;
+	   2'd3: 
+	      hOut[91] = 18'sd239;
+	   2'd4: 
+	      hOut[91] = 18'sd716;
+	endcase
+
+always @ *
+	case(xDelay[92])
+	   2'd1: 
+	      hOut[92] = 18'sd281;
+	   2'd2: 
+	      hOut[92] = 18'sd94;
+	   2'd3: 
+	      hOut[92] = -18'sd94;
+	   2'd4: 
+	      hOut[92] = -18'sd281;
+	endcase
+
+always @ *
+	case(xDelay[93])
+	   2'd1: 
+	      hOut[93] = 18'sd938;
+	   2'd2: 
+	      hOut[93] = 18'sd313;
+	   2'd3: 
+	      hOut[93] = -18'sd313;
+	   2'd4: 
+	      hOut[93] = -18'sd938;
+	endcase
+
+always @ *
+	case(xDelay[94])
+	   2'd1: 
+	      hOut[94] = 18'sd951;
+	   2'd2: 
+	      hOut[94] = 18'sd317;
+	   2'd3: 
+	      hOut[94] = -18'sd317;
+	   2'd4: 
+	      hOut[94] = -18'sd951;
+	endcase
+
+always @ *
+	case(xDelay[95])
+	   2'd1: 
+	      hOut[95] = 18'sd422;
+	   2'd2: 
+	      hOut[95] = 18'sd141;
+	   2'd3: 
+	      hOut[95] = -18'sd141;
+	   2'd4: 
+	      hOut[95] = -18'sd422;
+	endcase
+
+always @ *
+	case(xDelay[96])
+	   2'd1: 
+	      hOut[96] = -18'sd261;
+	   2'd2: 
+	      hOut[96] = -18'sd87;
+	   2'd3: 
+	      hOut[96] = 18'sd87;
+	   2'd4: 
+	      hOut[96] = 18'sd261;
+	endcase
+
+always @ *
+	case(xDelay[97])
+	   2'd1: 
+	      hOut[97] = -18'sd688;
+	   2'd2: 
+	      hOut[97] = -18'sd229;
+	   2'd3: 
+	      hOut[97] = 18'sd229;
+	   2'd4: 
+	      hOut[97] = 18'sd688;
+	endcase
+
+always @ *
+	case(xDelay[98])
+	   2'd1: 
+	      hOut[98] = -18'sd654;
+	   2'd2: 
+	      hOut[98] = -18'sd218;
+	   2'd3: 
+	      hOut[98] = 18'sd218;
+	   2'd4: 
+	      hOut[98] = 18'sd654;
+	endcase
+
+always @ *
+	case(xDelay[99])
+	   2'd1: 
+	      hOut[99] = -18'sd250;
+	   2'd2: 
+	      hOut[99] = -18'sd83;
+	   2'd3: 
+	      hOut[99] = 18'sd83;
+	   2'd4: 
+	      hOut[99] = 18'sd250;
+	endcase
+
+always @ *
+	case(xDelay[100])
+	   2'd1: 
+	      hOut[100] = 18'sd238;
+	   2'd2: 
+	      hOut[100] = 18'sd79;
+	   2'd3: 
+	      hOut[100] = -18'sd79;
+	   2'd4: 
+	      hOut[100] = -18'sd238;
+	endcase
+
+always @ *
+	case(xDelay[101])
+	   2'd1: 
+	      hOut[101] = 18'sd517;
+	   2'd2: 
+	      hOut[101] = 18'sd172;
+	   2'd3: 
+	      hOut[101] = -18'sd172;
+	   2'd4: 
+	      hOut[101] = -18'sd517;
+	endcase
+
+always @ *
+	case(xDelay[102])
+	   2'd1: 
+	      hOut[102] = 18'sd456;
+	   2'd2: 
+	      hOut[102] = 18'sd152;
+	   2'd3: 
+	      hOut[102] = -18'sd152;
+	   2'd4: 
+	      hOut[102] = -18'sd456;
+	endcase
+
+always @ *
+	case(xDelay[103])
+	   2'd1: 
+	      hOut[103] = 18'sd140;
+	   2'd2: 
+	      hOut[103] = 18'sd47;
+	   2'd3: 
+	      hOut[103] = -18'sd47;
+	   2'd4: 
+	      hOut[103] = -18'sd140;
+	endcase
+
+always @ *
+	case(xDelay[104])
+	   2'd1: 
+	      hOut[104] = -18'sd212;
+	   2'd2: 
+	      hOut[104] = -18'sd71;
+	   2'd3: 
+	      hOut[104] = 18'sd71;
+	   2'd4: 
+	      hOut[104] = 18'sd212;
+	endcase
+
+always @ *
+	case(xDelay[105])
+	   2'd1: 
+	      hOut[105] = -18'sd390;
+	   2'd2: 
+	      hOut[105] = -18'sd130;
+	   2'd3: 
+	      hOut[105] = 18'sd130;
+	   2'd4: 
+	      hOut[105] = 18'sd390;
+	endcase
+
+always @ *
+	case(xDelay[106])
+	   2'd1: 
+	      hOut[106] = -18'sd315;
+	   2'd2: 
+	      hOut[106] = -18'sd105;
+	   2'd3: 
+	      hOut[106] = 18'sd105;
+	   2'd4: 
+	      hOut[106] = 18'sd315;
+	endcase
+
+always @ *
+	case(xDelay[107])
+	   2'd1: 
+	      hOut[107] = -18'sd67;
+	   2'd2: 
+	      hOut[107] = -18'sd22;
+	   2'd3: 
+	      hOut[107] = 18'sd22;
+	   2'd4: 
+	      hOut[107] = 18'sd67;
+	endcase
+
+always @ *
+	case(xDelay[108])
+	   2'd1: 
+	      hOut[108] = 18'sd183;
+	   2'd2: 
+	      hOut[108] = 18'sd61;
+	   2'd3: 
+	      hOut[108] = -18'sd61;
+	   2'd4: 
+	      hOut[108] = -18'sd183;
+	endcase
+
+always @ *
+	case(xDelay[109])
+	   2'd1: 
+	      hOut[109] = 18'sd290;
+	   2'd2: 
+	      hOut[109] = 18'sd97;
+	   2'd3: 
+	      hOut[109] = -18'sd97;
+	   2'd4: 
+	      hOut[109] = -18'sd290;
+	endcase
+
+always @ *
+	case(xDelay[110])
+	   2'd1: 
+	      hOut[110] = 18'sd211;
+	   2'd2: 
+	      hOut[110] = 18'sd70;
+	   2'd3: 
+	      hOut[110] = -18'sd70;
+	   2'd4: 
+	      hOut[110] = -18'sd211;
+	endcase
+
+always @ *
+	case(xDelay[111])
+	   2'd1: 
+	      hOut[111] = 18'sd20;
+	   2'd2: 
+	      hOut[111] = 18'sd7;
+	   2'd3: 
+	      hOut[111] = -18'sd7;
+	   2'd4: 
+	      hOut[111] = -18'sd20;
+	endcase
+
+always @ *
+	case(xDelay[112])
+	   2'd1: 
+	      hOut[112] = -18'sd155;
+	   2'd2: 
+	      hOut[112] = -18'sd52;
+	   2'd3: 
+	      hOut[112] = 18'sd52;
+	   2'd4: 
+	      hOut[112] = 18'sd155;
+	endcase
+
+always @ *
+	case(xDelay[113])
+	   2'd1: 
+	      hOut[113] = -18'sd211;
+	   2'd2: 
+	      hOut[113] = -18'sd70;
+	   2'd3: 
+	      hOut[113] = 18'sd70;
+	   2'd4: 
+	      hOut[113] = 18'sd211;
+	endcase
+
+always @ *
+	case(xDelay[114])
+	   2'd1: 
+	      hOut[114] = -18'sd134;
+	   2'd2: 
+	      hOut[114] = -18'sd45;
+	   2'd3: 
+	      hOut[114] = 18'sd45;
+	   2'd4: 
+	      hOut[114] = 18'sd134;
+	endcase
+
+always @ *
+	case(xDelay[115])
+	   2'd1: 
+	      hOut[115] = 18'sd11;
+	   2'd2: 
+	      hOut[115] = 18'sd4;
+	   2'd3: 
+	      hOut[115] = -18'sd4;
+	   2'd4: 
+	      hOut[115] = -18'sd11;
+	endcase
+
+always @ *
+	case(xDelay[116])
+	   2'd1: 
+	      hOut[116] = 18'sd126;
+	   2'd2: 
+	      hOut[116] = 18'sd42;
+	   2'd3: 
+	      hOut[116] = -18'sd42;
+	   2'd4: 
+	      hOut[116] = -18'sd126;
+	endcase
+
+always @ *
+	case(xDelay[117])
+	   2'd1: 
+	      hOut[117] = 18'sd148;
+	   2'd2: 
+	      hOut[117] = 18'sd49;
+	   2'd3: 
+	      hOut[117] = -18'sd49;
+	   2'd4: 
+	      hOut[117] = -18'sd148;
+	endcase
+
+always @ *
+	case(xDelay[118])
+	   2'd1: 
+	      hOut[118] = 18'sd77;
+	   2'd2: 
+	      hOut[118] = 18'sd26;
+	   2'd3: 
+	      hOut[118] = -18'sd26;
+	   2'd4: 
+	      hOut[118] = -18'sd77;
+	endcase
+
+always @ *
+	case(xDelay[119])
+	   2'd1: 
+	      hOut[119] = -18'sd29;
+	   2'd2: 
+	      hOut[119] = -18'sd10;
+	   2'd3: 
+	      hOut[119] = 18'sd10;
+	   2'd4: 
+	      hOut[119] = 18'sd29;
+	endcase
+
+always @ *
+	case(xDelay[120])
+	   2'd1: 
+	      hOut[120] = -18'sd100;
+	   2'd2: 
+	      hOut[120] = -18'sd33;
+	   2'd3: 
+	      hOut[120] = 18'sd33;
+	   2'd4: 
+	      hOut[120] = 18'sd100;
+	endcase
+
+always @ *
+	case(xDelay[121])
+	   2'd1: 
+	      hOut[121] = -18'sd98;
+	   2'd2: 
+	      hOut[121] = -18'sd33;
+	   2'd3: 
+	      hOut[121] = 18'sd33;
+	   2'd4: 
+	      hOut[121] = 18'sd98;
+	endcase
+
+always @ *
+	case(xDelay[122])
+	   2'd1: 
+	      hOut[122] = -18'sd37;
+	   2'd2: 
+	      hOut[122] = -18'sd12;
+	   2'd3: 
+	      hOut[122] = 18'sd12;
+	   2'd4: 
+	      hOut[122] = 18'sd37;
+	endcase
+
+always @ *
+	case(xDelay[123])
+	   2'd1: 
+	      hOut[123] = 18'sd37;
+	   2'd2: 
+	      hOut[123] = 18'sd12;
+	   2'd3: 
+	      hOut[123] = -18'sd12;
+	   2'd4: 
+	      hOut[123] = -18'sd37;
+	endcase
+
+always @ *
+	case(xDelay[124])
+	   2'd1: 
+	      hOut[124] = 18'sd75;
+	   2'd2: 
+	      hOut[124] = 18'sd25;
+	   2'd3: 
+	      hOut[124] = -18'sd25;
+	   2'd4: 
+	      hOut[124] = -18'sd75;
+	endcase
+
+always @ *
+	case(xDelay[125])
+	   2'd1: 
+	      hOut[125] = 18'sd59;
+	   2'd2: 
+	      hOut[125] = 18'sd20;
+	   2'd3: 
+	      hOut[125] = -18'sd20;
+	   2'd4: 
+	      hOut[125] = -18'sd59;
+	endcase
+
+always @ *
+	case(xDelay[126])
+	   2'd1: 
+	      hOut[126] = 18'sd9;
+	   2'd2: 
+	      hOut[126] = 18'sd3;
+	   2'd3: 
+	      hOut[126] = -18'sd3;
+	   2'd4: 
+	      hOut[126] = -18'sd9;
+	endcase
+
+always @ *
+	case(xDelay[127])
+	   2'd1: 
+	      hOut[127] = -18'sd39;
+	   2'd2: 
+	      hOut[127] = -18'sd13;
+	   2'd3: 
+	      hOut[127] = 18'sd13;
+	   2'd4: 
+	      hOut[127] = 18'sd39;
+	endcase
+
+always @ *
+	case(xDelay[128])
+	   2'd1: 
+	      hOut[128] = -18'sd53;
+	   2'd2: 
+	      hOut[128] = -18'sd18;
+	   2'd3: 
+	      hOut[128] = 18'sd18;
+	   2'd4: 
+	      hOut[128] = 18'sd53;
+	endcase
+
+always @ *
+	case(xDelay[129])
+	   2'd1: 
+	      hOut[129] = -18'sd30;
+	   2'd2: 
+	      hOut[129] = -18'sd10;
+	   2'd3: 
+	      hOut[129] = 18'sd10;
+	   2'd4: 
+	      hOut[129] = 18'sd30;
+	endcase
+
+always @ *
+	case(xDelay[130])
+	   2'd1: 
+	      hOut[130] = 18'sd9;
+	   2'd2: 
+	      hOut[130] = 18'sd3;
+	   2'd3: 
+	      hOut[130] = -18'sd3;
+	   2'd4: 
+	      hOut[130] = -18'sd9;
+	endcase
+
+always @ *
+	case(xDelay[131])
+	   2'd1: 
+	      hOut[131] = 18'sd37;
+	   2'd2: 
+	      hOut[131] = 18'sd12;
+	   2'd3: 
+	      hOut[131] = -18'sd12;
+	   2'd4: 
+	      hOut[131] = -18'sd37;
+	endcase
+
+always @ *
+	case(xDelay[132])
+	   2'd1: 
+	      hOut[132] = 18'sd35;
+	   2'd2: 
+	      hOut[132] = 18'sd12;
+	   2'd3: 
+	      hOut[132] = -18'sd12;
+	   2'd4: 
+	      hOut[132] = -18'sd35;
+	endcase
+
+always @ *
+	case(xDelay[133])
+	   2'd1: 
+	      hOut[133] = 18'sd10;
+	   2'd2: 
+	      hOut[133] = 18'sd3;
+	   2'd3: 
+	      hOut[133] = -18'sd3;
+	   2'd4: 
+	      hOut[133] = -18'sd10;
+	endcase
+
+always @ *
+	case(xDelay[134])
+	   2'd1: 
+	      hOut[134] = -18'sd19;
+	   2'd2: 
+	      hOut[134] = -18'sd6;
+	   2'd3: 
+	      hOut[134] = 18'sd6;
+	   2'd4: 
+	      hOut[134] = 18'sd19;
+	endcase
+
+always @ *
+	case(xDelay[135])
+	   2'd1: 
+	      hOut[135] = -18'sd31;
+	   2'd2: 
+	      hOut[135] = -18'sd10;
+	   2'd3: 
+	      hOut[135] = 18'sd10;
+	   2'd4: 
+	      hOut[135] = 18'sd31;
+	endcase
+
+always @ *
+	case(xDelay[136])
+	   2'd1: 
+	      hOut[136] = -18'sd20;
+	   2'd2: 
+	      hOut[136] = -18'sd7;
+	   2'd3: 
+	      hOut[136] = 18'sd7;
+	   2'd4: 
+	      hOut[136] = 18'sd20;
+	endcase
+
+always @ *
+	case(xDelay[137])
+	   2'd1: 
+	      hOut[137] = 18'sd4;
+	   2'd2: 
+	      hOut[137] = 18'sd1;
+	   2'd3: 
+	      hOut[137] = -18'sd1;
+	   2'd4: 
+	      hOut[137] = -18'sd4;
+	endcase
+
+always @ *
+	case(xDelay[138])
+	   2'd1: 
+	      hOut[138] = 18'sd24;
+	   2'd2: 
+	      hOut[138] = 18'sd8;
+	   2'd3: 
+	      hOut[138] = -18'sd8;
+	   2'd4: 
+	      hOut[138] = -18'sd24;
+	endcase
+
+always @ *
+	case(xDelay[139])
+	   2'd1: 
+	      hOut[139] = 18'sd25;
+	   2'd2: 
+	      hOut[139] = 18'sd8;
+	   2'd3: 
+	      hOut[139] = -18'sd8;
+	   2'd4: 
+	      hOut[139] = -18'sd25;
+	endcase
+
+always @ *
+	case(xDelay[140])
+	   2'd1: 
+	      hOut[140] = 18'sd9;
+	   2'd2: 
+	      hOut[140] = 18'sd3;
+	   2'd3: 
+	      hOut[140] = -18'sd3;
+	   2'd4: 
+	      hOut[140] = -18'sd9;
+	endcase
+
+always @ *
+	case(xDelay[141])
+	   2'd1: 
+	      hOut[141] = -18'sd13;
+	   2'd2: 
+	      hOut[141] = -18'sd4;
+	   2'd3: 
+	      hOut[141] = 18'sd4;
+	   2'd4: 
+	      hOut[141] = 18'sd13;
+	endcase
+
+always @ *
+	case(xDelay[142])
+	   2'd1: 
+	      hOut[142] = -18'sd24;
+	   2'd2: 
+	      hOut[142] = -18'sd8;
+	   2'd3: 
+	      hOut[142] = 18'sd8;
+	   2'd4: 
+	      hOut[142] = 18'sd24;
+	endcase
+
+always @ *
+	case(xDelay[143])
+	   2'd1: 
+	      hOut[143] = -18'sd18;
+	   2'd2: 
+	      hOut[143] = -18'sd6;
+	   2'd3: 
+	      hOut[143] = 18'sd6;
+	   2'd4: 
+	      hOut[143] = 18'sd18;
+	endcase
+
+always @ *
+	case(xDelay[144])
+	   2'd1: 
+	      hOut[144] = 18'sd0;
+	   2'd2: 
+	      hOut[144] = 18'sd0;
+	   2'd3: 
+	      hOut[144] = 18'sd0;
+	   2'd4: 
+	      hOut[144] = 18'sd0;
+	endcase
+
+always @ *
+	case(xDelay[145])
+	   2'd1: 
+	      hOut[145] = 18'sd17;
+	   2'd2: 
+	      hOut[145] = 18'sd6;
+	   2'd3: 
+	      hOut[145] = -18'sd6;
+	   2'd4: 
+	      hOut[145] = -18'sd17;
+	endcase
+
+always @ *
+	case(xDelay[146])
+	   2'd1: 
+	      hOut[146] = 18'sd22;
+	   2'd2: 
+	      hOut[146] = 18'sd7;
+	   2'd3: 
+	      hOut[146] = -18'sd7;
+	   2'd4: 
+	      hOut[146] = -18'sd22;
+	endcase
+
+always @ *
+	case(xDelay[147])
+	   2'd1: 
+	      hOut[147] = 18'sd12;
+	   2'd2: 
+	      hOut[147] = 18'sd4;
+	   2'd3: 
+	      hOut[147] = -18'sd4;
+	   2'd4: 
+	      hOut[147] = -18'sd12;
+	endcase
+
+always @ *
+	case(xDelay[148])
+	   2'd1: 
+	      hOut[148] = -18'sd5;
+	   2'd2: 
+	      hOut[148] = -18'sd2;
+	   2'd3: 
+	      hOut[148] = 18'sd2;
+	   2'd4: 
+	      hOut[148] = 18'sd5;
+	endcase
+
+always @ *
+	case(xDelay[149])
+	   2'd1: 
+	      hOut[149] = -18'sd17;
+	   2'd2: 
+	      hOut[149] = -18'sd6;
+	   2'd3: 
+	      hOut[149] = 18'sd6;
+	   2'd4: 
+	      hOut[149] = 18'sd17;
+	endcase
+
+always @ *
+	case(xDelay[150])
+	   2'd1: 
+	      hOut[150] = -18'sd18;
+	   2'd2: 
+	      hOut[150] = -18'sd6;
+	   2'd3: 
+	      hOut[150] = 18'sd6;
+	   2'd4: 
+	      hOut[150] = 18'sd18;
+	endcase
+
+always @ *
+	case(xDelay[151])
+	   2'd1: 
+	      hOut[151] = -18'sd6;
+	   2'd2: 
+	      hOut[151] = -18'sd2;
+	   2'd3: 
+	      hOut[151] = 18'sd2;
+	   2'd4: 
+	      hOut[151] = 18'sd6;
+	endcase
+
+always @ *
+	case(xDelay[152])
+	   2'd1: 
+	      hOut[152] = 18'sd8;
+	   2'd2: 
+	      hOut[152] = 18'sd3;
+	   2'd3: 
+	      hOut[152] = -18'sd3;
+	   2'd4: 
+	      hOut[152] = -18'sd8;
+	endcase
+
+always @ *
+	case(xDelay[153])
+	   2'd1: 
+	      hOut[153] = 18'sd16;
+	   2'd2: 
+	      hOut[153] = 18'sd5;
+	   2'd3: 
+	      hOut[153] = -18'sd5;
+	   2'd4: 
+	      hOut[153] = -18'sd16;
+	endcase
+
+always @ *
+	case(xDelay[154])
+	   2'd1: 
+	      hOut[154] = 18'sd13;
+	   2'd2: 
+	      hOut[154] = 18'sd4;
+	   2'd3: 
+	      hOut[154] = -18'sd4;
+	   2'd4: 
+	      hOut[154] = -18'sd13;
+	endcase
+
+always @ *
+	case(xDelay[155])
+	   2'd1: 
+	      hOut[155] = 18'sd2;
+	   2'd2: 
+	      hOut[155] = 18'sd1;
+	   2'd3: 
+	      hOut[155] = -18'sd1;
+	   2'd4: 
+	      hOut[155] = -18'sd2;
+	endcase
+
+always @ *
+	case(xDelay[156])
+	   2'd1: 
+	      hOut[156] = -18'sd9;
+	   2'd2: 
+	      hOut[156] = -18'sd3;
+	   2'd3: 
+	      hOut[156] = 18'sd3;
+	   2'd4: 
+	      hOut[156] = 18'sd9;
+	endcase
+
+always @ *
+	case(xDelay[157])
+	   2'd1: 
+	      hOut[157] = -18'sd14;
+	   2'd2: 
+	      hOut[157] = -18'sd5;
+	   2'd3: 
+	      hOut[157] = 18'sd5;
+	   2'd4: 
+	      hOut[157] = 18'sd14;
+	endcase
+
+always @ *
+	case(xDelay[158])
+	   2'd1: 
+	      hOut[158] = -18'sd9;
+	   2'd2: 
+	      hOut[158] = -18'sd3;
+	   2'd3: 
+	      hOut[158] = 18'sd3;
+	   2'd4: 
+	      hOut[158] = 18'sd9;
+	endcase
+
+always @ *
+	case(xDelay[159])
+	   2'd1: 
+	      hOut[159] = 18'sd1;
+	   2'd2: 
+	      hOut[159] = 18'sd0;
+	   2'd3: 
+	      hOut[159] = 18'sd0;
+	   2'd4: 
+	      hOut[159] = -18'sd1;
+	endcase
+
+always @ *
+	case(xDelay[160])
+	   2'd1: 
+	      hOut[160] = 18'sd9;
+	   2'd2: 
+	      hOut[160] = 18'sd3;
+	   2'd3: 
+	      hOut[160] = -18'sd3;
+	   2'd4: 
+	      hOut[160] = -18'sd9;
+	endcase
+
