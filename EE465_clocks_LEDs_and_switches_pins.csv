@@ -1,0 +1,51 @@
+
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To, Assignment Name, Value
+clock_50, Location, PIN_Y2
+clock_27, Location, PIN_B14
+LEDR[0], Location, PIN_G19
+LEDR[1], Location, PIN_F19
+LEDR[2], Location, PIN_E19
+LEDR[3], Location, PIN_F21
+LEDR[4], Location, PIN_F18
+LEDR[5], Location, PIN_E18
+LEDR[6], Location, PIN_J19
+LEDR[7], Location, PIN_H19
+LEDR[8], Location, PIN_J17
+LEDR[9], Location, PIN_G17
+LEDR[10], Location, PIN_J15
+LEDR[11], Location, PIN_H16
+LEDR[12], Location, PIN_J16
+LEDR[13], Location, PIN_H17
+LEDR[14], Location, PIN_F15
+LEDR[15], Location, PIN_G15
+LEDR[16], Location, PIN_G16
+LEDR[17], Location, PIN_H15
+LEDG[0], Location, PIN_E21
+LEDG[1], Location, PIN_E22
+LEDG[2], Location, PIN_E25
+LEDG[3], Location, PIN_E24
+KEY[0], Location, PIN_M23
+KEY[1], Location, PIN_M21
+KEY[2], Location, PIN_N21
+KEY[3], Location, PIN_R24
+SW[0], Location, PIN_AB28
+SW[1], Location, PIN_AC28
+SW[2], Location, PIN_AC27
+SW[3], Location, PIN_AD27
+SW[4], Location, PIN_AB27
+SW[5], Location, PIN_AC26
+SW[6], Location, PIN_AD26
+SW[7], Location, PIN_AB26
+SW[8], Location, PIN_AC25
+SW[9], Location, PIN_AB25
+SW[10], Location, PIN_AC24
+SW[11], Location, PIN_AB24
+SW[12], Location, PIN_AB23
+SW[13], Location, PIN_AA24
+SW[14], Location, PIN_AA23
+SW[15], Location, PIN_AA22
+SW[16], Location, PIN_Y24
+SW[17], Location, PIN_Y23
